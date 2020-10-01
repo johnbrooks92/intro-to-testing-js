@@ -23,3 +23,10 @@ console.log(sayHello("5"));
 function isFive(x){
     return (parseInt(x)) === 5;
 }
+
+function isEven(x) {
+    if (x % 2 != 0)
+        return false;
+    else
+        return true;
+}
