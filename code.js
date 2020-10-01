@@ -19,3 +19,7 @@ console.log(sayHello(null));
 console.log(sayHello(""));
 console.log(sayHello(2.3));
 console.log(sayHello("5"));
+
+function isFive(x){
+    return (parseInt(x)) === 5;
+}
